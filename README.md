@@ -1,71 +1,66 @@
-# Getting Started with Create React App
+<p align="center">
+    <a href="https://tuxbase.com">
+      <img src="https://avatars.githubusercontent.com/u/138342288" height="128"/>
+    </a>
+    <h1 align="center">TuxBase HomePage</h1>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a aria-label="React">
+    <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/><img src="https://img.shields.io/badge/javascript%20-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=white"/>
+  </a>
+  <a aria-label="License">
+    <img alt="" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=20232a">
+  </a>
+  <a aria-label="Join the community on Discord" href="https://discord.gg/CHEGMKTxfa">
+    <img alt="" src="https://img.shields.io/badge/Join%20the%20community-blueviolet.svg?style=for-the-badge&logo=discord&logoColor=white&labelColor=20232a&logoWidth=20">
+  </a>
+</p>
+<hr>
 
-## Available Scripts
+Welcome to the source code for [TuxBase](https://tuxbase.com)'s homepage, wrote entirely in ReactJS.
 
-In the project directory, you can run:
+### About TuxBase
+Tuxbase is a unified, open-source platform offering a suite of self-hosted web services. Centered around fostering community and promoting digital freedom, Tuxbase empowers users with a single sign-on experience across a diverse range of applications, from code repositories to social networking. We are committed to building a user-friendly, secure, and privacy-focused alternative to mainstream platforms. Join us in reshaping the Internet landscape, one service at a time
 
-### `npm start`
+## Getting Started
+To get a local copy up and running, follow these simple steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+You will need Node.js and npm installed on your machine. To check if you have Node.js installed, open your terminal and type:
+```
+node -v
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To confirm that you have npm installed you can run this command in your terminal:
+```
+npm -v
+```
+If they are not installed, you can get Node.js and npm from [here](https://nodejs.org/en/download/).
 
-### `npm test`
+### Installing and Running the App
+1. Clone the repo:
+   ```
+   git clone https://github.com/TuxBase/Site.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd Site
+   ```
+3. Install NPM packages:
+   ```bash
+    npm install
+   ```
+4. Start the app:
+   ```
+    npm start
+   ```
+After running npm start, open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Site
+## Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
